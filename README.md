@@ -2,4 +2,4 @@
 
 
 * ZeForge Academy website project
-* Prototype website for Vukory art made using HTML5 and CSS3
+* Prototype website for Vukory art 
