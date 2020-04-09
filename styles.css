@@ -314,6 +314,7 @@ main {
 
 .location-map {
     width: 100%;
+    height: 100%;
     border: none;
 }
 
@@ -553,7 +554,7 @@ footer {
     /** jewellery */
     .logo-3d-render {
         width: 50%;
-        height: 100%;
+        height: 400px;
     }
     .about-spirare-natura {
         position: relative;
