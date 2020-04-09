@@ -551,6 +551,27 @@ footer {
         border-left: 2px solid #90afb8;
         padding-left: 2em;
     }
+    /** art gallery link */
+    #gallery {
+        grid-template-columns: 15% 70% 15%;
+        grid-template-rows: none;
+    }
+    #contact {
+        height: 300px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    /** order custom products */
+    .order:before {
+        content: '';
+        position: absolute;
+        left: -50px;
+        border-left: 50px solid transparent;
+        border-top: 300px solid #ffffff;
+    }
+}
+
+@media(min-width:1200px) {
     /** jewellery */
     .logo-3d-render {
         width: 50%;
@@ -579,23 +600,5 @@ footer {
         height: 100%;
         flex-direction: row-reverse;
         margin: 1em 0 2em 0;
-    }
-    /** art gallery link */
-    #gallery {
-        grid-template-columns: 15% 70% 15%;
-        grid-template-rows: none;
-    }
-    #contact {
-        height: 300px;
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-    /** order custom products */
-    .order:before {
-        content: '';
-        position: absolute;
-        left: -50px;
-        border-left: 50px solid transparent;
-        border-top: 300px solid #ffffff;
     }
 }
