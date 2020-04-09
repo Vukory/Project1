@@ -157,11 +157,11 @@ main {
 
 #about-img:before {
     content: '';
-    width: 50%;
+    width: 30%;
     height: 20%;
     background-color: #186279;
     position: absolute;
-    margin: -5% 0 0 -25%;
+    margin: -5% 0 0 -15%;
     z-index: -1;
 }
 
