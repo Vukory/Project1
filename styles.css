@@ -396,6 +396,12 @@ footer {
     width: 100%;
     background-color: #ffffff;
     box-shadow: 0 -8px 7px -7px #415a61;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    margin: 0 0 0.5em 0;
 }
 
 .links a {
@@ -405,6 +411,10 @@ footer {
 
 .links a:hover {
     color: #114858;
+}
+
+.copyright {
+    color: #afafaf;
 }
 
 
