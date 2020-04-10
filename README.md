@@ -2,3 +2,4 @@
 
 
 * Prototype website for Vukory art 
+* Made using HTML5 and CSS3
