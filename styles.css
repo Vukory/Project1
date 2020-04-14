@@ -343,7 +343,7 @@ textarea {
     resize: none;
     background-color: #90afb87c;
     border-radius: 20px;
-    padding: 0.5em 0 0 1em;
+    padding: 0.5em 1em 1em 1em;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
     border: none;
@@ -355,7 +355,7 @@ input[type=text] {
     border-radius: 20px;
     height: 25px;
     margin: 0.5em 0 0 0;
-    padding-left: 1em;
+    padding: 0 1em 0 1em;
     border: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
